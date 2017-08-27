@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_linear_v"
+            android:title="LinearLayoutManager (vertical)" />
+        <item
+            android:id="@+id/nav_linear_h"
+            android:title="LinearLayoutManager (horizontal)" />
+        <item
+            android:id="@+id/nav_grid_v"
+            android:title="GridLayoutManager (vertical)" />
+
+        <item
+            android:id="@+id/nav_grid_h"
+            android:title="GridLayoutManager (horizontal)" />
+
+        <item
+            android:id="@+id/nav_grid_span"
+            android:title="GridLayoutManager + SpanSizeLookup" />
+        <item
+            android:id="@+id/nav_staggered_v"
+            android:title="StaggeredGridLayoutManager (vertical)" />
+        <item
+            android:id="@+id/nav_staggered_h"
+            android:title="StaggeredGridLayoutManager (horizontal)" />
+
+        <item
+            android:id="@+id/nav_item_types"
+            android:title="ItemTypes" />
+        
+
+        <item
+            android:id="@+id/nav_item_qualifiers"
+            android:title="Responsive RecyclerView (Qualifiers)" />
+
+
+    </group>
+
+
+</menu>
